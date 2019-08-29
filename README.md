@@ -1,2 +1,1 @@
-# eduxstad.github.io
-personal website
+[eduxstad.github.io](eduxstad.github.io)
