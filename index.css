@@ -17,6 +17,33 @@ h1,h2,h3,h4,h5,h6 {
 	font-weight: 600;
 }
 
+.center {
+}
+
+.cdf-flag {
+	width: 15rem;
+	margin-top: 2rem;
+	margin-bottom: 0rem;
+}
+
+img {
+	margin: 1rem auto 1rem auto;
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+.boilerdash-img {
+	width: 100%;
+	max-width: 40rem;
+}
+
+.m68k-img {
+	width: 100%;
+	max-width: 30rem;
+}
+
+/* Links */
+
 a {
 	color: #111;
 	text-decoration: none;
