@@ -24,6 +24,8 @@ h1,h2,h3,h4,h5,h6 {
 	width: 15rem;
 	margin-top: 2rem;
 	margin-bottom: 0rem;
+	border: 0.15rem solid white;
+	border-radius: 0rem;
 }
 
 img {
@@ -31,6 +33,8 @@ img {
 	max-width: 100%;
 	height: auto;
 	display: block;
+	border-radius: 0.5rem;
+	filter: drop-shadow(0 0 0.15rem black);
 }
 .boilerdash-img {
 	width: 100%;
