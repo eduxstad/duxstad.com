@@ -17,8 +17,6 @@ h1,h2,h3,h4,h5,h6 {
 	font-weight: 600;
 }
 
-.center {
-}
 
 .cdf-flag {
 	width: 15rem;
@@ -44,6 +42,10 @@ img {
 .m68k-img {
 	width: 100%;
 	max-width: 30rem;
+}
+
+.garmin-img {
+  filter: none;
 }
 
 /* Links */
