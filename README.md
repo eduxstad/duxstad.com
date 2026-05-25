@@ -1,2 +1,2 @@
-### [duxstad.com](https://duxstad.com)
-This is the code for my personal website. 
+### [duxst.ad](https://duxst.ad)
+This is the code for my personal website.
