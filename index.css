@@ -17,6 +17,24 @@ h1,h2,h3,h4,h5,h6 {
 	font-weight: 600;
 }
 
+.header-row {
+	display: flex;
+	gap: 1rem;
+	align-items: baseline;
+}
+
+.helvetica {
+	font-family: "Helvetica", sans-serif;
+}
+
+.footnote {
+	display: block;
+	font-size: smaller;
+}
+
+.footnote span + span {
+	margin-top: 0.25em;
+}
 
 .cdf-flag {
 	width: 15rem;
