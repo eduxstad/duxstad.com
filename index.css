@@ -19,8 +19,32 @@ h1,h2,h3,h4,h5,h6 {
 
 .header-row {
 	display: flex;
+	flex-wrap: wrap;
 	gap: 1rem;
 	align-items: baseline;
+}
+
+.header-row h1 {
+	max-width: 100%;
+	flex: 0 0 max-content;
+}
+
+.header-row nav {
+	display: flex;
+	gap: 1rem;
+	align-items: baseline;
+	margin-bottom: 0.5em;
+	font-size: 1.2em;
+	font-weight: 600;
+}
+
+.header-row nav a {
+	color: #333;
+}
+
+.header-row a::before,
+.header-row a::after {
+	background: #333;
 }
 
 .helvetica {
@@ -32,7 +56,7 @@ h1,h2,h3,h4,h5,h6 {
 	font-size: smaller;
 }
 
-.footnote span + span {
+.footnote span + sup {
 	margin-top: 0.25em;
 }
 
@@ -85,6 +109,7 @@ iframe {
 }
 
 /* Links */
+/* inspired by https://codepen.io/alphardex/pen/WNQPWmj */
 
 a {
 	color: #111;
@@ -94,7 +119,6 @@ a {
 	position: relative;
 }
 
-/*inspired by https://codepen.io/alphardex/pen/WNQPWmj */
 a::before,
 a::after {
 	position: absolute;
